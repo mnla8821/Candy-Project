@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: pink;
+  font-family: "Nunito", sans-serif;
+}
+
+.navbar-brand {
+  text-transform: uppercase;
+  color: red;
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+.navbar-brand:hover {
+  color: aqua;
+}
+
+.nav-link {
+  text-transform: uppercase;
+  color: white;
+  font-size: 1.2rem;
+}
+.nav-link:hover {
+  color: aqua;
+}
+
+.hero {
+  height: 100vh;
+  margin-bottom: 80px;
+}
+
+.row {
+  height: 100%;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.hero h1 {
+  color: white;
+  font-weight: 300;
+  font-size: 3.5rem;
+}
+
+.hero span {
+  color: red;
+}
+
+.about-text p {
+  padding: 10px 50px;
+  text-align: center;
+}
